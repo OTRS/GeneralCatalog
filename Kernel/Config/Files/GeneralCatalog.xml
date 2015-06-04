@@ -11,7 +11,7 @@
                 <Title>General Catalog</Title>
                 <NavBarName>Admin</NavBarName>
                 <NavBarModule>
-                    <Module>Kernel::Output::HTML::NavBarModuleAdmin</Module>
+                    <Module>Kernel::Output::HTML::NavBar::ModuleAdmin</Module>
                     <Name Translatable="1">General Catalog</Name>
                     <Description Translatable="1">Create and manage the General Catalog.</Description>
                     <Block>Ticket</Block>
