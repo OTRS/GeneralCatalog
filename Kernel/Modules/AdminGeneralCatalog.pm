@@ -201,7 +201,7 @@ sub Run {
 
             # find output module
             my $Module = $Preferences{$Item}->{Module}
-                || 'Kernel::Output::HTML::GeneralCatalogPreferencesGeneric';
+                || 'Kernel::Output::HTML::GeneralCatalogPreferences::Generic';
 
             # load module
             if ( !$Self->{MainObject}->Require($Module) ) {
@@ -329,7 +329,7 @@ sub Run {
 
         for my $Item ( sort keys %Preferences ) {
             my $Module = $Preferences{$Item}->{Module}
-                || 'Kernel::Output::HTML::GeneralCatalogPreferencesGeneric';
+                || 'Kernel::Output::HTML::GeneralCatalogPreferences::Generic';
 
             # load module
             if ( !$Self->{MainObject}->Require($Module) ) {

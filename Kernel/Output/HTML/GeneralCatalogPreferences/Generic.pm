@@ -6,7 +6,7 @@
 # did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
-package Kernel::Output::HTML::GeneralCatalogPreferencesGeneric;
+package Kernel::Output::HTML::GeneralCatalogPreferences::Generic;
 
 use strict;
 use warnings;
