@@ -188,6 +188,13 @@ sub _MigrateFunctionality {
     return 1;
 }
 
+=item _MigrateConfigs()
+
+change configurations to match the new module location.
+
+    my $Result = $CodeObject->_MigrateConfigs();
+
+=cut
 
 sub _MigrateConfigs {
 
